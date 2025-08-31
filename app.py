@@ -274,7 +274,6 @@ with col0:
     st.number_input(
         "参加人数",
         min_value=2, max_value=200,
-        value=st.session_state["target_participants"],
         step=1,
         key="target_participants",
         on_change=_on_change_target,
